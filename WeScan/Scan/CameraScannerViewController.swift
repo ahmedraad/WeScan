@@ -40,7 +40,7 @@ public final class CameraScannerViewController: UIViewController {
     private let quadView = QuadrilateralView()
     
     /// Whether flash is enabled
-    private var flashEnabled = false
+    public var flashEnabled = false
     
     override public func viewDidLoad() {
         super.viewDidLoad()
