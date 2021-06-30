@@ -29,7 +29,7 @@ public final class EditImageViewController: UIViewController {
     private var quadViewHeightConstraint = NSLayoutConstraint()
     public weak var delegate: EditImageViewDelegate?
     
-    private lazy var imageView: UIImageView = {
+    public lazy var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.isOpaque = true
